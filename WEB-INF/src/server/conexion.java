@@ -79,6 +79,7 @@ public class conexion {
             System.out.println("Error al conectar con la base de datos de PostgreSQL (" + url + "): " + sqle);
         }
     }
+    /* prueba */
 
     public void close() throws SQLException {
         con.close();
