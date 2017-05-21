@@ -27,7 +27,7 @@ Ext.define('app.view.main.MyPanel1', {
         type: 'mypanel1'
     },
     autoShow: true,
-    height: 734,
+    height: 750,
     width: 1356,
     layout: 'absolute',
     bodyStyle: 'background-image: url("http://www.impresionantescr.com/imgs/fondos_f02.jpg");',
@@ -49,21 +49,23 @@ Ext.define('app.view.main.MyPanel1', {
         },
         {
             xtype: 'button',
-            x: 800,
+            x: 100,
             y: 170,
             height: 270,
-            style: 'background: url(https://cdn4.iconfinder.com/data/icons/VISTA/project_managment/png/400/deliverables.png);\nbackground-size: 300px 300px;',
+            //style: 'background: url(https://cdn4.iconfinder.com/data/icons/VISTA/project_managment/png/400/deliverables.png);\nbackground-size: 300px 300px;',
+            style: 'background: url(http://www.fancyicons.com/free-icons/142/network/png/256/user_group_256.png);\nbackground-size: 300px 300px;',
             width: 270,
             icon: 'products',
             text: ''
         },
         {
             xtype: 'button',
-            x: 250,
+            x: 470,
             y: 170,
             height: 270,
             itemId: 'mybutton',
-            style: 'background: url(http://www.fancyicons.com/free-icons/142/network/png/256/user_group_256.png);\nbackground-size: 300px 300px;',
+            //style: 'background: url(http://www.fancyicons.com/free-icons/142/network/png/256/user_group_256.png);\nbackground-size: 300px 300px;',
+            style: 'background: url(https://cdn4.iconfinder.com/data/icons/VISTA/project_managment/png/400/deliverables.png);\nbackground-size: 300px 300px;',
             width: 270,
             icon: 'products',
             text: ''

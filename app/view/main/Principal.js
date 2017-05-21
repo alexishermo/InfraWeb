@@ -9,6 +9,7 @@ Ext.define('app.view.main.Principal',{
     ],
 
     layout:'ux.center',
+    bodyStyle: 'background-image: url("http://www.impresionantescr.com/imgs/fondos_f02.jpg");',
 
     initComponent : function() {
 
