@@ -36,7 +36,7 @@ Ext.define('app.controller.LoginCr',{
                         layout: 'fit',
                         anchor: '100%',
                         scrollable: 'vertical',
-                        items: Ext.create('app.view.main.Menu'),
+                        items: Ext.create('app.view.main.MyPanel1'),
                         renderTo: Ext.getBody()
                     });
                 } else {

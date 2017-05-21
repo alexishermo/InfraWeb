@@ -32,11 +32,20 @@ public class conexion {
                 System.out.println("Error al registrar el driver de PostgreSQL: " + ex);
             }
 
-            // Database connect
+            /*// Database connect
             // Conectamos con la base de datos
             con = DriverManager.getConnection(
                     "jdbc:postgresql://192.168.0.32:5432/InfraWeb",
                     "postgres", "postgres");
+                    */
+
+            // Database connect
+            // Conectamos con la base de datos
+            con = DriverManager.getConnection(
+                    "jdbc:postgresql://localhost:5432/InfraWeb",
+                    "web", "stevens");
+
+
 
             boolean valid = con.isValid(2000);
             System.out.println(valid ? "TEST OK" : "TEST FAIL");
