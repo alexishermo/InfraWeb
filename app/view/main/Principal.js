@@ -55,7 +55,7 @@ Ext.define('app.view.main.Principal',{
                         handler: 'aceptar'
                     }
                         , {
-                            text: 'Limpiar'
+                            text: 'Limpiar',
                         }, '->']
                 }]
             }

@@ -3,6 +3,14 @@
  */
 Ext.define('app.view.main.Menu',{
     extend: 'Ext.Panel',
-
-    layout:'ux.center'
+    initComponent:function(){
+        var mygrid=Ext.create('app.view.main.Grid');
+        Ext.apply(this,{
+            items: [{
+                html:'<h1>La ferreteria :)</h1>'
+            },mygrid]
+        });
+        this.callParent()
+    }
+    //layout:'ux.center'
 });

@@ -1,0 +1,16 @@
+{
+	data:[
+	    {nombre:"Opcion1",
+	    id:1},
+	    {nombre:"Opcion2",
+	    id:2},
+	    {nombre:"Opcion3",
+	    id:3}
+	],
+	numFilas:3,
+	estatus:{
+		error:false,
+		sesionError: false,
+		msg:"no jalo"
+	}
+}

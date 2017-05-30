@@ -1,0 +1,184 @@
+{
+	"Clientes": [{
+		"Nombre": "Clarence S. Brown",
+		"Codigo": 3380,
+		"Telefono": "504 -679-0629",
+		"Edad": 30,
+		"Correo": "ClarenceSBrown@superrito.com"
+	}, {
+		"Nombre": "Jill D. Kang",
+		"Codigo": 4180,
+		"Telefono": "503-254-3048",
+		"Edad": 72,
+		"Correo": "JillDKang@gustr.com"
+	}, {
+		"Nombre": "Kristina J. Valentine",
+		"Codigo": 4482,
+		"Telefono": "630-792-9913",
+		"Edad": 33,
+		"Correo": "KristinaJValentine@gustr.com"
+	}, {
+		"Nombre": "Gloria R. Vaught",
+		"Codigo": 2569,
+		"Telefono": "845-364-3176",
+		"Edad": 49,
+		"Correo": "GloriaRVaught@gustr.com"
+	}, {
+		"Nombre": "William H. Garret",
+		"Codigo": 5880,
+		"Telefono": "507-436-9276",
+		"Edad": 34,
+		"Correo": "WilliamHGarret@superrito.com"
+	}, {
+		"Nombre": "Jean I. Bates",
+		"Codigo": 1870,
+		"Telefono": "347-968-3131",
+		"Edad": 55,
+		"Correo": "JeanIBates@superrito.com"
+	}, {
+		"Nombre": "Danny D. Rowley",
+		"Codigo": 2314,
+		"Telefono": "315-647-5902",
+		"Edad": 77,
+		"Correo": "DannyDRowley@superrito.com"
+	}, {
+		"Nombre": "Gary K. Wilhite",
+		"Codigo": 2867,
+		"Telefono": "260-316-2546",
+		"Edad": 53,
+		"Correo": "GaryKWilhite@gustr.com"
+	}, {
+		"Nombre": "Bob C. Sellers",
+		"Codigo": 1553,
+		"Telefono": "910-797-9010",
+		"Edad": 62,
+		"Correo": "BobCSellers@superrito.com"
+	}, {
+		"Nombre": "Destiny C. Ponds",
+		"Codigo": 3452,
+		"Telefono": "828-242-3264",
+		"Edad": 37,
+		"Correo": "DestinyCPonds@superrito.com"
+	}, {
+		"Nombre": "Carl J. Batchelder",
+		"Codigo": 2062,
+		"Telefono": "724-477-7710",
+		"Edad": 26,
+		"Correo": "CarlJBatchelder@gustr.com"
+	}, {
+		"Nombre": "Jessica A. Roberts",
+		"Codigo": 2523,
+		"Telefono": "304-605-2286",
+		"Edad": 26,
+		"Correo": "JessicaARoberts@gustr.com"
+	}, {
+		"Nombre": "Martin L. Davis",
+		"Codigo": 2078,
+		"Telefono": "678-632-1139",
+		"Edad": 57,
+		"Correo": "MartinLDavis@superrito.com"
+	}, {
+		"Nombre": "Sandra T. Yates",
+		"Codigo": 1708,
+		"Telefono": "512-681-0890",
+		"Edad": 32,
+		"Correo": "SandraTYates@gustr.com"
+	}, {
+		"Nombre": "Thelma E. Rankin",
+		"Codigo": 3837,
+		"Telefono": "336-643-8751",
+		"Edad": 26,
+		"Correo": "ThelmaERankin@gustr.com"
+	}, {
+		"Nombre": "Derek E. Henderson",
+		"Codigo": 4731,
+		"Telefono": "704-288-8480",
+		"Edad": 75,
+		"Correo": "DerekEHenderson@superrito.com"
+	}, {
+		"Nombre": "Matthew S. Harrison",
+		"Codigo": 3089,
+		"Telefono": "913-369-4692",
+		"Edad": 57,
+		"Correo": "MatthewSHarrison@superrito.com"
+	}, {
+		"Nombre": "Sandra T. Buffington",
+		"Codigo": 4877,
+		"Telefono": "202-312-6350",
+		"Edad": 70,
+		"Correo": "SandraTBuffington@gustr.com"
+	}, {
+		"Nombre": "Matthew P. Childers",
+		"Codigo": 3830,
+		"Telefono": "603-612-6916",
+		"Edad": 34,
+		"Correo": "MatthewPChilders@gustr.com"
+	}, {
+		"Nombre": "Indira J. Michael",
+		"Codigo": 4630,
+		"Telefono": "714-945-7459",
+		"Edad": 67,
+		"Correo": "IndiraJMichael@gustr.com"
+	}, {
+		"Nombre": "Thomas M. Guevara",
+		"Codigo": 3226,
+		"Telefono": "703-458-8593",
+		"Edad": 20,
+		"Correo": "ThomasMGuevara@gustr.com"
+	}, {
+		"Nombre": "William E. Dodson",
+		"Codigo": 1254,
+		"Telefono": "425-415-2672",
+		"Edad": 40,
+		"Correo": "WilliamEDodson@gustr.com"
+	}, {
+		"Nombre": "Billie R. Ojeda",
+		"Codigo": 2200,
+		"Telefono": "562-289-7533",
+		"Edad": 81,
+		"Correo": "BillieROjeda@gustr.com"
+	}, {
+		"Nombre": "Christine B. Brogan",
+		"Codigo": 3858,
+		"Telefono": "910-349-6631",
+		"Edad": 72,
+		"Correo": "ChristineBBrogan@superrito.com"
+	}, {
+		"Nombre": "Jose K. Benoit",
+		"Codigo": 4948,
+		"Telefono": "812-649-9957",
+		"Edad": 50,
+		"Correo": "JoseKBenoit@superrito.com"
+	}, {
+		"Nombre": "Julia W. Stafford",
+		"Codigo": 2415,
+		"Telefono": "712-883-6484",
+		"Edad": 62,
+		"Correo": "JuliaWStafford@gustr.com"
+	}, {
+		"Nombre": "Chad D. Smith",
+		"Codigo": 4218,
+		"Telefono": "931-454-5522",
+		"Edad": 72,
+		"Correo": "ChadDSmith@gustr.com"
+	}, {
+		"Nombre": "Margaret J. Diaz",
+		"Codigo": 3332,
+		"Telefono": "214-271-1103",
+		"Edad": 73,
+		"Correo": "MargaretJDiaz@gustr.com"
+	}, {
+		"Nombre": "Mary A. Santiago",
+		"Codigo": 2456,
+		"Telefono": "423-623-7507",
+		"Edad": 84,
+		"Correo": "MaryASantiago@gustr.com"
+	}, {
+		"Nombre": "Alma B. Phillips",
+		"Codigo": 4646,
+		"Telefono": "618-510-5573",
+		"Edad": 32,
+		"Correo": "AlmaBPhillips@gustr.com"
+	}],
+		"Status": "OK"
+}

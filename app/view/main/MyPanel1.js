@@ -16,6 +16,7 @@
 Ext.define('app.view.main.MyPanel1', {
     extend: 'Ext.panel.Panel',
     alias: 'widget.mypanel1',
+    controller: 'loginCr',
 
     requires: [
         'app.model.MyPanel1ViewModel',
@@ -34,42 +35,59 @@ Ext.define('app.view.main.MyPanel1', {
     title: 'WELCOME',
     titleAlign: 'center',
 
-    items: [
-        {
-            xtype: 'label',
-            x: 350,
-            y: 440,
-            text: 'USUARIOS'
-        },
-        {
-            xtype: 'label',
-            x: 910,
-            y: 440,
-            text: 'PRODUCTOS'
-        },
-        {
-            xtype: 'button',
-            x: 100,
-            y: 170,
-            height: 270,
-            //style: 'background: url(https://cdn4.iconfinder.com/data/icons/VISTA/project_managment/png/400/deliverables.png);\nbackground-size: 300px 300px;',
-            style: 'background: url(http://www.fancyicons.com/free-icons/142/network/png/256/user_group_256.png);\nbackground-size: 300px 300px;',
-            width: 270,
-            icon: 'products',
-            text: ''
-        },
-        {
-            xtype: 'button',
-            x: 470,
-            y: 170,
-            height: 270,
-            itemId: 'mybutton',
-            //style: 'background: url(http://www.fancyicons.com/free-icons/142/network/png/256/user_group_256.png);\nbackground-size: 300px 300px;',
-            style: 'background: url(https://cdn4.iconfinder.com/data/icons/VISTA/project_managment/png/400/deliverables.png);\nbackground-size: 300px 300px;',
-            width: 270,
-            icon: 'products',
-            text: ''
+    initComponent : function() {
+        Ext.apply(this, {
+            items: {
+                width: 800,
+                x:250,
+                y:120,
+                bodyStyle: 'background-image: url("http://www.impresionantescr.com/imgs/fondos_f02.jpg");',
+                bodyPadding: 10,
+                items: [{
+                    xtype: 'form',
+                    bodyStyle: 'background-image: url("http://www.impresionantescr.com/imgs/fondos_f02.jpg");',
+                    bbar: ['->',
+                        {
+                            x: 100,
+                            y: 250,
+                            height: 270,
+                            //style: 'background: url(https://cdn4.iconfinder.com/data/icons/VISTA/project_managment/png/400/deliverables.png);\nbackground-size: 300px 300px;',
+                            style: 'background: url(/resources/imagen/usuarios.png);',
+                            width: 270,
+                            icon: 'products',
+                            text: '',
+                            handler:'usuarios'
+                        },
+                        {
+                            xtype: 'label',
+                            x: 350,
+                            y: 440,
+                            text: 'USUARIOS'
+                        },
+                        {
+
+                            x: 470,
+                            y: 170,
+                            height: 270,
+                            itemId: 'mybutton',
+                            //style: 'background: url(http://www.fancyicons.com/free-icons/142/network/png/256/user_group_256.png);\nbackground-size: 300px 300px;',
+                            style: 'background: url(/resources/imagen/caja.png);',
+                            width: 270,
+                            icon: 'products',
+                            text: '',
+                            handler:'productos'
+                        }, {
+                            xtype: 'label',
+                            x: 910,
+                            y: 440,
+                            text: 'PRODUCTOS'
+                        },
+                    ],
+                }]
+            }
+        });
+        this.callParent();
         }
-    ]
+
 
 });

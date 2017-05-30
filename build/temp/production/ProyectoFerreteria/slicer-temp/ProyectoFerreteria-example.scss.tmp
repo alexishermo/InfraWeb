@@ -912,9 +912,25 @@ $include-proyectoferreteria-view-main-list: dynamic(true);;
 $include-proyectoferreteria-view-main-main: dynamic(true);;
 $include-proyectoferreteria-view-main-maincontroller: dynamic(true);;
 $include-proyectoferreteria-view-main-mainmodel: dynamic(true);;
+$include-app-controller-formactr: dynamic(true);;
 $include-app-controller-logincr: dynamic(true);;
+$include-app-model-deptomodel: dynamic(true);;
+$include-app-model-gridmodel: dynamic(true);;
+$include-app-model-mypanel1viewmodel: dynamic(true);;
+$include-app-store-deptostore: dynamic(true);;
+$include-app-store-gridstore: dynamic(true);;
+$include-app-view-forma: dynamic(true);;
+$include-app-view-main-bienvenido: dynamic(true);;
+$include-app-view-main-empleado: dynamic(true);;
+$include-app-view-main-grid: dynamic(true);;
 $include-app-view-main-menu: dynamic(true);;
+$include-app-view-main-mypanel: dynamic(true);;
+$include-app-view-main-mypanel1: dynamic(true);;
+$include-app-view-main-mypanelviewcontroller: dynamic(true);;
+$include-app-view-main-mypanelviewmodel: dynamic(true);;
 $include-app-view-main-principal: dynamic(true);;
+$include-app-view-main-principal2: dynamic(true);;
+$include-app-view-main-tienda: dynamic(true);;
 
 
 /* ======================== ETC ======================== */
